@@ -1,29 +1,47 @@
+:root {
+    /* Colors */
+    --primary-color: #3498db;
+    --secondary-color: #f1c40f;
+    --background-color: #f9f9f9;
+    --text-color: #333;
+  
+    /* Fonts */
+    --font-family: Arial, sans-serif;
+    --font-size: 16px;
+    --font-weight: 400;
+  
+    /* Sizes */
+    --header-height: 60px;
+    --footer-height: 40px;
+    --padding: 20px;
+  }
+    
 nav {
- background-color:darkblue;
- padding: 10px;
+ background-color: var(--background-color);
+ padding: var(--padding);
  /* here i am adding styles the all the nav sections in my html file */
 }
 
 nav a {
-    color: white;
-    display: block;
-    padding: 20px;
+    color: var(--background-color);
+    display: var(--primary-color);
+    padding: var(--padding);
 }
 
 h1  {
-    color: darkblue;
+    color: var(--background-color);
 }
 
 img {
-    width: 150px;
-    height: auto;
-    border: 1px solid black;
-    padding: 2px;
+    width: var(--width);
+    height: var(--width);
+    border: var(--border);
+    padding: var(--padding);
     box-shadow: 0 0 30px gray;
 }
 
 p   {
-    padding: 0;
+    padding: var(--padding);
 }
 
 main {
@@ -35,7 +53,7 @@ aside {
     margin: 2rem;
     border: 1px solid-green;
     padding: 3rem;
-    background-color: yellowgreen;
+    background-color: var(--background-color);
     color: red;
     text-align: center;
 }
