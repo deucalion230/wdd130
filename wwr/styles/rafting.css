@@ -1,0 +1,35 @@
+:root {
+    /* Colors */
+    --primary-color: #54a09a;
+    --secondary-color: #3c5d5a;
+    --background-color: #9888a5;
+    --text-color: #fb6376;
+  
+    /* Fonts */
+    --font-family: Arial, sans-serif;
+    --font-size: 16px;
+    --font-weight: 400;
+  
+    /* Sizes */
+    --header-height: 60px;
+    --footer-height: 40px;
+    --padding: 20px;
+  }
+
+  a {
+    /* this removes the underlines from all hyperlinks*/
+    text-decoration: none;
+  }
+
+  .hero img {
+    display: block;
+    width: 90%;
+    height: auto;
+  }
+
+  .hero {
+    background-color: #4e6c69;
+    color: #fb6376;
+    padding: 100px;
+    text-align: center;
+}
